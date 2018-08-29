@@ -78,11 +78,24 @@ public class Employee {
 	 * 		d) For a level 0 the employee needs less than 1 year of service.
 	 * @return 
 	 */
+	
+	
+	
 	public int seniorityLevel() {
 		
 		//Add Code Here [You have to use If/Else to get graded]
 		
-		return 0;// Temporal Return
-		
+		if (yearService >= 10 ){
+			return 3;
+		}
+		else if(yearService >= 5){
+			return 2;
+		}
+		else if (yearService >= 1){
+			return 1;
+		}
+		else{
+			return 0;
+		}
 	}
 }
