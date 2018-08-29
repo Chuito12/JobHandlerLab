@@ -81,7 +81,7 @@ public class Employee {
 	
 	public int seniorityLevel() {
 		
-		if (yearService >= 10 ){
+		if (yearService >= 10){
 			return 3;
 		}
 		else if(yearService >= 5){
