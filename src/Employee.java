@@ -79,11 +79,7 @@ public class Employee {
 	 * @return 
 	 */
 	
-	
-	
 	public int seniorityLevel() {
-		
-		//Add Code Here [You have to use If/Else to get graded]
 		
 		if (yearService >= 10 ){
 			return 3;
